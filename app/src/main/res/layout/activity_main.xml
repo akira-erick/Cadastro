@@ -117,7 +117,6 @@
         android:text="@string/ingressar_na_lista_de_e_mails"
         android:checked="false"
         app:layout_constraintBottom_toTopOf="@id/sexo_tv"
-        app:layout_constraintEnd_toEndOf=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email_ed"
         />
@@ -141,7 +140,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/sexo_tv"
@@ -200,7 +198,6 @@
         android:textSize="15sp"
         android:padding="7dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cidade_ed"
@@ -211,11 +208,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/UF"
-        app:layout_constraintBottom_toTopOf="limpar_bt"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/uf_tv"
-        />
+        app:layout_constraintTop_toBottomOf="@id/uf_tv" />
 
     <LinearLayout
         android:id="@+id/buttons_bt"
@@ -223,7 +219,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="7dp"
-        app:layout_constraintBottom_toTopOf=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/uf_sp">

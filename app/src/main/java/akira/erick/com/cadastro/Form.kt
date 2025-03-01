@@ -10,6 +10,6 @@ data class Form(
     val uf : String
 ){
     override fun toString(): String {
-        return "Form(nome='$nome', telefone='$telefone', email='$email', emailLista=$emailLista, sexo='$sexo', cidade='$cidade', uf='$uf')"
+        return "nome: $nome, telefone: $telefone, email: $email, emailLista: $emailLista, sexo: $sexo, cidade: $cidade, uf: $uf"
     }
 }

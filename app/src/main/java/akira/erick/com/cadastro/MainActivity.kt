@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
                 var formulario = Form(nome, telefone, email, emailCheck, sexo, cidade, uf)
 
-                Toast.makeText(root.context, formulario.toString(),Toast.LENGTH_SHORT).show()
+                Toast.makeText(root.context, formulario.toString(),Toast.LENGTH_LONG).show()
             }
         }
     }
